@@ -1,0 +1,13 @@
+.text-title {
+  font-family: Opensans-bold;
+}
+.content {
+  display: flex;
+  line-height: 30px;
+}
+p {
+  margin: 0;
+}
+.content-order {
+  padding-left: 30px;
+}

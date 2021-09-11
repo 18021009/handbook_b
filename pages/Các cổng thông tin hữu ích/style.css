@@ -1,0 +1,119 @@
+.logo {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+  }
+  
+  .desktop_nav_item {
+    margin: auto;
+  }
+  
+  .mobi_nav_item {
+    display: none;
+  }
+  
+  .icon {
+    display: none;
+  }
+  
+  .nav {
+    display: flex;
+    padding: 8px 16px;
+    background-color: #005095;
+  }
+  .logo-uet{
+    width: 80px;
+    height: 80px;
+  }
+  .logo-uet img{
+    width: 100%;
+    height: 100%;
+  }
+  .nav_bar {
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-around;
+  }
+  .nav_bar a{
+    color: #fff;
+  }
+  .mobi_nav_item{
+    background-color: #005095;
+  }
+  .mobi_nav_item a{
+    color: #fff;
+    padding: 10px 20px;
+  }
+  .corousel {
+    height: 460px;
+    background-image: url("./images/carousel.jpg");
+    background-size: 100% 100%;
+  }
+  
+  .vanhoa-title{
+    color: #136292;
+    font-size: 85px;
+    font-weight: 700;
+    font-family: "San Francisco Display";
+    text-align: center;
+    margin-bottom: 30px;
+  
+  }
+  
+  .component{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: auto auto; 
+  }
+  
+  
+
+  .item{
+    height: 300px; display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 13px 29px rgb(0 0 0 / 35%);
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  @media (max-width: 575px) {
+    .nav {
+      display: flex;
+      justify-content: space-between;
+    }
+    .desktop_nav_item {
+      display: none;
+    }
+  
+    .icon {
+      margin-top: auto;
+      margin-bottom: auto;
+      width: 50px;
+      height: 50px;
+      display: inline;
+    }
+  
+    .mobi_nav_item {
+      display: none;
+    }
+  
+    .mobi_nav_item.responsive {
+      display: block;
+    }
+  
+    .mobi_nav_item.responsive a {
+      display: block;
+    }
+    .vanhoa-title{
+      color: #136292;
+      font-size: 60px;
+      font-weight: 700;
+      font-family: "San Francisco Display";
+      text-align: center;
+      margin-bottom: 30px;
+    
+    }
+  }
+  
+  /*  */
+  

@@ -1,0 +1,15 @@
+.content {
+  display: flex;
+}
+.content-order {
+  padding-left: 20px;
+}
+.web-link {
+  color: #005095;
+}
+p {
+  margin: 0;
+}
+.home-body {
+  line-height: 35px;
+}

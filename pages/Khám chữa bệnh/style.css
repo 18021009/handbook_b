@@ -1,0 +1,17 @@
+.paragraph {
+  text-indent: 50px;
+  line-height: 30px;
+}
+.home-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.mail-link {
+  color: #005095;
+}
+.text-bold {
+  font-family: Opensans-semibold;
+}
+.hospital-addr {
+  padding-left: 50px;
+}

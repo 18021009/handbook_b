@@ -1,0 +1,15 @@
+.paragraph {
+  text-indent: 50px;
+  line-height: 30px;
+}
+.home-body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.link-page {
+  color: #005095;
+  font-family: Opensans-semibold;
+}
+ul {
+  list-style: none;
+}

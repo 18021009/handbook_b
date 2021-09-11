@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../../main.css">
+    <link rel="stylesheet" href="../../Home.css">
+    <title>Các cổng thông tin hữu ích</title>
+</head>
+
+<body>
+
+    <div class="page-header">
+        <div class="nav" id="nav">
+            <div class="logo-uet">
+                <img src="./images/logo.png" alt="logo" class="logo" />
+            </div>
+            <div class="nav_bar">
+                <a href="" class="desktop_nav_item">Tổng quan</a>
+                <a href="" class="desktop_nav_item">Đồng hành cùng sinh viên</a>
+                <a href="" class="desktop_nav_item">Sân chơi</a>
+                <a href="" class="desktop_nav_item">Thông tin liên hệ</a>
+                <a href="" class="desktop_nav_item">Tiện ích bổ sung</a>
+                <a href="" class="desktop_nav_item">Học tập</a>
+            </div>
+            <button class="icon" onclick="showNav()"><i class="fa fa-bars"></i></button>
+        </div>
+        <div class="mobi_nav_item" id="mobile_nav_item">
+            <a href="">Tổng quan</a>
+            <a href="">Đồng hành cùng sinh viên</a>
+            <a href="">Sân chơi</a>
+            <a href="">Thông tin liên hệ</a>
+            <a href="">Tiện ích bổ sung</a>
+            <a href="">Học tập</a>
+        </div>
+    </div>
+    <div class="component">
+        <div class="item"><a href="https://uet.vnu.edu.vn/">Website chính của UET</a></div>
+        <div class="item"><a href="https://idp.vnu.edu.vn/">Hệ thống thư điện tử</a></div>
+        <div class="item"><a href="https://daotao.vnu.edu.vn/dkmh/">Cổng thông tin đào tạo</a></div>
+        <div class="item"><a href="http://qa.uet.vnu.edu.vn/">Hệ thống hỏi đáp trực tuyến</a></div>
+        <div class="item"><a href="http://112.137.129.87/qldt/">Hệ thống tra cứu đăng ký môn học</a></div>
+        <div class="item"><a href="http://112.137.129.115/tkb/index.php">Hệ thống tra cứu thời khóa biểu</a></div>
+        <div class="item"><a href="http://112.137.129.87/congdaotao/module/dsthi/">Hệ thống tra cứu danh sách thi</a></div>
+        <div class="item"><a href="http://112.137.129.30/viewgrade/">Hệ thống tra cứu điểm thi</a></div>
+    </div>
+    
+    <div class="home-footer body-container">
+        <div class="footer-address">
+            <span>Phòng 104-E3, 144 Xuân Thủy, Cầu Giấy, Hà Nội</span>
+            <a style="color: #fff" href="mailto:ctsv_dhcn@vnu.edu.vn" class="addr-mail">Email: ctsv_dhcn@vnu.edu.vn</a>
+            <a style="color: #fff" href="tel:02437548864">ĐT: 024 3754 8864</a>
+        </div>
+        <div class="footer-author footer-address">
+            <span style="margin-bottom: 10px">Biên tập:</span>
+            <span>Thiết kế:</span>
+        </div>
+    </div>
+
+
+    <script>
+        function showNav() {
+            var x = document.getElementById("mobile_nav_item");
+            if (x.className === 'mobi_nav_item') {
+                x.className += " responsive";
+            } else {
+                x.className = "mobi_nav_item";
+            }
+        }
+    </script>
+</body>
+
+</html>
